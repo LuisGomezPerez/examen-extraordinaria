@@ -13,4 +13,4 @@ def main():
 
 
     T = nx.minimum_spanning_tree(G, algorithm='prim', weight='weight')
-    print(T.edges()
+    print(T.edges())
