@@ -4,7 +4,7 @@ import itertools
 def main():
     G = nx.Graph()
 
-    planets = ['Alderaan', 'Endor', 'Dagobah', 'Hoth', 'Tatooine', 'Kamino', 'Naboo', 'Mustafar', 'Scarif', 'Bespin', 'planeta1', 'planeta2', 'planeta3', 'planeta4', 'planeta5', 'planeta6', 'planeta7']
+    planets = ['Tierra', 'Knowhere','Zen-Whober','Vomir','Titán','Nidavellir', 'planeta1', 'planeta2', 'planeta3', 'planeta4', 'planeta5', 'planeta6', 'planeta7']
     G.add_nodes_from(planets)
 
     planet_pairs = list(itertools.combinations(planets, 2))
